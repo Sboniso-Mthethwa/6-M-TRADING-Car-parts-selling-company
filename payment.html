@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment page</title>
+    <link href="CSS/payment.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h2> Payment page</h2>
+        <form method="POST" action="confirm-form.html">
+            <h4>Account</h4>
+        <div class="input-group">
+            <div class="input-box">
+                <input type="number" placeholder="Card Number" required class="number" id="card">
+               
+            </div>
+        
+        
+        <div class="input-group">
+        <div class="input-box">
+            <input type="number" placeholder="Card CVC" required class="number" id="cvc">
+            <i class="fa fa-user icon"></i>
+        </div>
+        <div class="input-box">
+            <p >Input expiry date</p>
+            <select>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                
+            </select>
+            <select>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+                <option>2026</option>
+                <option>2027</option>
+                <option>2028</option>
+                <option>2029</option>
+                <option>2030</option>
+                <option>2031</option>
+            </select>
+        </div>
+    </div>
+    <div class="input-group">
+        <div class="input-box">
+            <button type="submit" id="pay">PAY</button>
+        </div>  
+    </div>
+        </form>
+    </div><script src="js/payment.js"></script>
+</body>
+
+<footer>
+    <button class="return"><li><a href="book-card.html"><i class="fa fa-arrow-circle-left"></i>Back</a></li></button>
+    <button class="go-to"><li><a href="confirm-form.html"><i class="fa fa-arrow-circle-right"></i>Continue</a></li></button>
+</footer>
+</html>

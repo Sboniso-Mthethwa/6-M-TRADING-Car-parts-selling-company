@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/Water-wallpaper-\ JPG.jpg);
+    background-size: cover;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 50%;
+    margin:50px auto;
+}
+.contact-box{
+    background: white;
+    display:flex ;
+}
+.contact-left{
+    flex-basis: 100%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 100%;
+    padding: 40px ;
+    background: #00bcd4;
+    color: #fff;
+}
+h1{
+    margin-bottom:none;
+    letter-spacing: 3px;
+    color: #ff7200;
+}
+.container p{
+    margin-bottom:5px;
+    font-weight: 300;
+    font-size: 17px;
+    color: #fff;
+}
+.input-row{
+    display: flex;
+    justify-items: space-between;
+    padding-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-top: -50px;
+    box-sizing: border-box;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    resize: none;
+}
+label{
+   margin-bottom: 6px;
+   display: block;
+   color: #1c00b5;
+   font-weight: 500;
+}
+.sub{
+    background: #00bcd4;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color:black;
+    border-radius: 30px;
+    margin-top: 15px;
+    position: center;
+}
+.sub:hover{
+    background: #ff7200;
+    color:beige
+}
+
+.contact-left h2{
+    color: black;
+    margin-bottom: 20px;
+}
+.contact-right h2{
+    color: white;
+    margin-bottom: 20px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.icon{
+    width: 40px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    size: 90px;
+    color: #000;
+}
+
+
+button.return{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #00bcd4;
+    background:#00bcd4;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+button.return li a{
+    color:white;
+    text-decoration: none;
+}
+button.return:hover{
+    background-color:coral;
+    transition: .3s ease;
+    color: #ff7200;
+}
+button.go-to{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #00bcd4;
+    background:#00bcd4;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+button.go-to li a{
+    color:white;
+    text-decoration: none;
+}
+button.go-to:hover{
+    background-color:coral;
+    transition: .3s ease;
+    color:blue;
+}  

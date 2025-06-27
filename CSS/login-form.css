@@ -1,0 +1,194 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,'Montserrat';
+}
+body{
+    width: 100%;
+    background: url(../images/Water-wallpaper-\ JPG.jpg);
+    background-repeat: no-repeat;
+}
+#parent{
+    max-width: 700px;
+    height: 300px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px;
+    background:whitesmoke;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    border: 1px solid #757575;
+    margin-top: 80px;
+}
+#parent >h2{
+    margin-left: 100px;
+}
+#parent >h3{
+    margin-left: 150px;
+}
+
+#parent>div:nth-child(1)>img{
+    width: 40px;
+    margin-top: 20px;
+    }
+#parent>div:nth-child(2){
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+#forminput{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+#forminput>div{
+    display: flex;
+    border: 2px solid green;
+    gap: 25px;
+    padding:10px 20px;
+}
+#forminput>input{
+    padding: 0px 200px 0px 20px;
+    font-size: 18px;
+}
+#forminput>div>img{
+width: 50px;
+height: 50px;
+margin-top: 15px;
+padding: -10;
+}
+#forminput>div>h4{
+    font-size: 18px;
+    margin-top: 30px;
+}
+#continue{
+    color: aliceblue;
+    background-color:#00253cd4;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 80px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    border:3px solid #00253c;
+    margin: auto; 
+    margin-top: 50px;
+} 
+#continue:hover{
+    color:black;
+    background: #ff7200;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+
+button.home{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: left;
+    margin-left: 10%;
+   margin-top: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #00253cd4;
+    background:#00253c;
+    text-decoration: none;
+    cursor: pointer; 
+}
+button.home li a{
+    color:white;
+    text-decoration: none;
+}
+button.home:hover{
+    background-color:coral;
+    transition: .3s ease;
+    color: #ff7200;
+}
+button.signup{
+    margin-left: 70%;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: right;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #00253cd4;
+    background:#00253c;
+    text-decoration: none;
+    cursor: pointer; 
+}
+button.signup li a{
+    color:white;
+    text-decoration: none;
+}
+button.signup:hover{
+    background-color:coral;
+    transition: .3s ease;
+    color: #ff7200;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #parent{
+        width: 100% ;
+    }
+    
+    #parent>div:nth-child(1)>img{
+        width: 30px;
+        margin-top: 20px;
+        margin-left: 0px;
+        }
+    #parent>div:nth-child(2){
+        margin-top: 105px;
+    font-size: 20px;
+    width: 300px;
+    font-weight: bold;
+    margin-left: 20px;
+    }
+    #forminput{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #inputmobile{
+        padding-top: -20px;
+        
+    }
+    #forminput>div{
+        display: flex;
+        border: 2px solid green;
+        gap: 25px;
+        padding:10px 20px;
+    }
+    #forminput>input{
+        padding: 0px 10px 0px 10px;
+        font-size: 16px;
+    }
+    #forminput>div>img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    padding: -10;
+    }
+    #forminput>div>h4{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    #continue{
+        color: aliceblue;
+        background-color:#00253cd4;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 20px 80px;
+        width: 50%;
+        text-align: center;
+        border-radius: 10px;
+        border:3px solid #00253c;
+        margin: auto; 
+        margin-top: 50px;
+    }
+    
+
+}

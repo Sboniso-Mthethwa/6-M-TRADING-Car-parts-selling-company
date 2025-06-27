@@ -1,0 +1,389 @@
+.nav{
+    width: 97%;
+  height: 55px;
+  background-color: #00253c;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+}
+.nav-logo{
+    display: flex;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu>img:nth-child(1){
+    width: 15%;
+    height: 30%;
+    margin :30px;
+}
+.nav-menu>img:nth-child(2){
+    width: 100%;
+    margin :20px;
+    margin-left: -20px;
+    height: 50px;
+}
+.nav-text{
+    margin-top: 30px;
+    margin-right: 35px;
+     width: 40%;
+     display: flex;
+     justify-content: space-between;
+     font-weight: bold;
+     color: #ffffff;
+     font-size: 17px;
+     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+       "Helvetica Neue", Arial, sans-serif;
+}
+.nav-text a{
+    color: #ffffff;
+}
+.nav-text .fa{
+    margin-right: 3px;
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+}
+
+.nav-text div i:hover,
+.nav-text > div > a:hover {
+    cursor: pointer;
+  color: #28cfe6;
+}
+body{
+    background-color: cadetblue;
+}
+#cars{
+    display: flex;
+    justify-content: space-between;
+}
+#car-filter{
+    width: 20%;
+    margin-left: 20px;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: rgb(238, 245, 242);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#seat-filter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+}
+#seat-filter>div{
+    background-color: rgba(240, 231, 231, 0.92) ;
+    border: 0.1px solid gray;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+#type-filter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#type-filter>div{ 
+    border: 0.1px solid grey;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+#Transmission-filter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#Transmission-filter>div{ 
+    border: 0.1px solid gray;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#delivery-filter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#delivery-filter>div{ 
+    border: 0.1px solid gray;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+#car-filter{
+        height: 500px;
+}
+#car-filter>p{
+    width: 80%;
+    margin-top: 40px;
+    color: blueviolet;
+    font-size: 13px;
+
+}
+#cars-data{
+    margin-top:40px ;
+     width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#carone{
+    display: flex;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+#cartwo{
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+}
+#carthree{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+#booknow{
+    border: 1px solid #00253c;
+   margin-top: 40px;
+   margin: auto;
+   font-size: 16px;
+   font-weight: 400px;
+   width: 30%;
+    background-color:#00253c ;
+    padding: 20px 20px;
+    color: white;
+}
+#booknow:hover{
+    color:black;
+    background: #ff7200;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+#forcarimg{
+    margin-top: 10px;
+    width:30%
+}
+#forcarimg~div{
+    margin: auto;
+    margin-top: 20px;
+}
+#forcarimg>img{
+width: 100%;
+margin: 10px;
+}
+
+#cardetails{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    padding: auto 50px;
+}
+#ratingdetails{
+    margin-top: 10px;
+    display: flex;
+    gap:5px;
+}
+#ratingdetails>div>img{
+    width: 20px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        display: flex;
+        margin-top: -10px;
+        justify-content: space-between;
+        margin-left: -10px;
+        padding-right: 20px;
+        gap: 50px;
+    }
+    .nav-logo{
+        display: flex;
+    }
+    .nav-menu{
+        display: flex;
+        gap: 10px;
+    }
+    .nav-menu>img:nth-child(1){
+        width: 15%;
+        height: 20%;
+        margin :25px;
+        margin-left: 10px;
+    }
+    .nav-menu>img:nth-child(2){
+        width:60px;
+        height: 25px;
+        margin :20px;
+        margin-left: -20px;
+    }
+    .nav-text{
+        color: white;
+        display: flex;
+        margin-right: 50px;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .nav-text>div{
+        margin: auto 10px;
+        font-weight: bold;
+        width: auto;
+       
+    }
+    #carone{
+        display: grid;
+        margin-bottom: 20px;
+       
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    #cartwo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content:space-between ;
+        width: 100%;
+    }
+    #carthree{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 40px;
+        grid-template-columns: repeat(1,1fr);
+    gap:40%;
+    }
+    #carname{
+        margin-top: -10px;
+    }
+    #booknow{
+        border: 1px solid #00253c;
+       margin-top: 40px;
+       margin: auto;
+       font-size: 16px;
+       font-weight: 400px;
+       width: 30%;
+        background-color:#00253c ;
+        padding: 20px 20px;
+        color: white;
+    }
+    #booknow:hover{
+        color:black;
+        background: #ff7200;
+        cursor: pointer;
+        transition: .5s ease-in;
+    }
+    #forcarimg{
+        margin-top: 10px;
+        width:90%
+    }
+    #carthree>h3{
+  display: block;
+  margin-top: 0px;
+
+    }
+    #forcarimg~div{
+        margin: auto;
+        margin-top: 20px;
+    }
+    #forcarimg>img{
+    width: 100%;
+    margin: 10px;
+    }
+    #forcardata{
+        margin-top: 0px;
+    }
+    #cardetails{
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        padding: auto 50px;
+    }
+    #ratingdetails{
+        margin-top: 0px;
+        display: flex;
+        gap:5px;
+    }
+    #ratingdetails>div>img{
+        width: 20px;
+    }
+    #parent>div:nth-child(2)>img{
+        width: 60px;
+        margin-top: 20px;
+        }
+    #parent>div:nth-child(2)>img{
+        width: 40px;
+        margin-top: 20px;
+        }
+        #cars{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #car-filter{
+            width: 20%;
+            margin-left: 0px;
+            padding: 0px 10px 0px 10px;
+            margin-top: 20px;
+            background-color: rgb(238, 245, 242);
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+        #car-filter>h3{
+            font-size: 10px;
+        }
+        #seat-filter{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        
+            
+        }
+        #seat-filter>div{
+            background-color: rgba(240, 231, 231, 0.92) ;
+            border: 0.1px solid gray;
+            font-size: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        #type-filter{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        #type-filter>div{ 
+            border: 0.1px solid grey;
+            font-size: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        #Transmission-filter{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        #Transmission-filter>div{ 
+            border: 0.1px solid gray;
+            font-size: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        
+        #delivery-filter{
+            display: grid;
+
+            grid-template-columns: repeat(1,1fr);
+        }
+        #delivery-filter>div{ 
+            border: 0.1px solid gray;
+            font-size: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        #car-filter{
+                height: 700px;
+        }
+        #car-filter>p{
+            width: 80%;
+            margin-top: 20px;
+            color: blueviolet;
+            font-size: 9px;
+        
+        }
+       
+}

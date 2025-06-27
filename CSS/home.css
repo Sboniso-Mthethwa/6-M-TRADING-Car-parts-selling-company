@@ -1,0 +1,237 @@
+body{
+    background-image: url(../images/mc\ loran.jpg);
+    font-family: 'Josefin Sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav{
+  width: 97%;
+  height: 60px;
+  background-color: #00253c;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+}
+.nav-logo{
+    display: flex;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu>img:nth-child(1){
+    width: 15%;
+    height: 30%;
+    margin :30px;
+}
+/* 6M main logo */
+.nav-menu>img:nth-child(2){
+    width: 100%;
+    margin :20px;
+    margin-left: -20px;
+    height: 50px;
+}
+.nav-text{
+    margin-top: 30px;
+   margin-right: 35px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+
+}
+.nav-text a{
+    color: #ffffff;
+}
+.nav-text .fa{
+    margin-right: 3px;
+    width: 20px;
+    height: 20px;
+    margin-left: 1px;
+}
+.nav-text div i:hover,
+.nav-text > div > a:hover {
+    cursor: pointer;
+  color: #28cfe6;
+}
+
+/* first segment */
+.welcome >h1{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	letter-spacing: 5px;
+    color: black;
+}
+.welcome> p{
+    font-weight: bold;
+    color: black;
+}
+
+.findcar>div>img{
+    width: 3%;
+}
+.findcar{
+    position: absolute;
+    left: 200px;
+    top:150px;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+}
+
+.findcar>div:nth-child(1){
+    padding: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    color: rgb(36, 31, 31);
+}
+.findcar>div:nth-child(1)>img{
+    width: 6%;
+    margin-top: -20px;
+}
+.findcar>div:nth-child(3){
+    text-align: center;
+    background-color: rgb(178, 238, 227);
+    color: rgb(79, 122, 122);
+    padding: 10px 40px;
+}
+.findcar>div:nth-child(2){
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 40px;
+    background-color: aliceblue;
+    color: rgb(37, 170, 170);  
+}
+.bg-image>img{
+    width: 101%;
+    height: 550px;
+}
+img{
+    margin-left: 82%;
+    margin-top: 30px;
+    width: 25%;
+    height:140px;
+}
+#copyright{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(36, 217, 217);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav{
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        display: flex;
+        margin-top: -10px;
+        justify-content: space-between;
+        margin-left: -10px;
+        padding-right: 20px;
+        gap: 50px;
+    }
+    .nav-logo{
+        display: flex;
+    }
+    .nav-menu{
+        display: flex;
+        gap: 10px;
+    }
+    .nav-menu>img:nth-child(1){
+        width: 15%;
+        height: 20%;
+        margin :25px;
+        margin-left: 10px;
+    }
+    .nav-menu>img:nth-child(2){
+        width:60px;
+        height: 25px;
+        margin :20px;
+        margin-left: -20px;
+    }
+    .nav-text{
+        color: white;
+        display: flex;
+        margin-right: 50px;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+    .nav-text>div{
+        margin: auto 10px;
+        font-weight: bold;
+        width: auto;
+       
+    }
+    .bg-image{
+        margin-left: -10px;
+        padding-right: 20px;
+        margin-top: 0px;
+        width: 110%;
+        height: auto;
+    }
+    .bg-image>img{
+        width: 100%;
+        height: 200px;
+    
+    }
+    .findcar>div>img{
+        width: 3%;
+    }
+    .findcar{
+        position: absolute;
+        left: 60px;
+        top:80px;
+        font-size: 12px;
+    }
+    .findcar>div{
+        padding: 10px;
+        width: 200px;
+        margin: auto;
+        padding: 20px 10px;
+        margin-top: 20px;
+    }
+    .findcar>div:nth-child(1){
+        padding: 0px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        color: rgb(36, 31, 31);
+    }
+    .findcar>div:nth-child(1)>img{
+        width: 10%;
+        margin-top: -0px;
+    }
+    .findcar>div:nth-child(3){
+        text-align: center;
+        background-color: rgb(178, 238, 227);
+        color: rgb(79, 122, 122);
+        padding: 10px 0px;
+        margin-top: 10px;
+    }
+    .findcar>div:nth-child(2){
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 15px 20px;
+        background-color: aliceblue;
+        color: rgb(37, 170, 170);
+    margin-top: 10px;
+        
+    }
+    
+    #image1{
+        width: 50%;
+    }
+    #image1>img{
+        width: 40%;
+    }
+    #copyright{
+        text-align: center;
+        color: rgb(36, 217, 217);
+    }
+    
+
+    
+}

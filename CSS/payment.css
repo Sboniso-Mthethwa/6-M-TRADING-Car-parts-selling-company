@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/3D-High-Resolution-Images-For-Desktop.jpg );
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+.wrapper{
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    margin-top: 50px ;
+    margin-left: 33%;
+    box-shadow:20px rgba(0,0,0,0.5);
+}
+.wrapper h2{
+    background-color: white;
+    color: aqua;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px dotted #333;
+}
+
+.input-group{
+    margin-bottom: 8px;
+    width: 100%;
+    position: relative;
+    display: block;
+    flex-direction: row;
+    padding: 0 5px ;
+}
+.input-box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+.input-box:last-child{
+    margin-right: 0;
+}
+
+.number{
+    padding: 14px 10px 14px 50px;
+    width: 100%;
+    background-color: #fcfcfc;
+    border: 1px solid#00000033;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+.number :focus{
+    -webkit-box-shadow : 0 0 2px 1px aqua;
+    -moz-box-shadow: 0 0 2px 1px aqua;
+    box-shadow:  0 0 2px 1px aqua;
+    border: 1px solid aquamarine;
+}
+.input-box .icon{
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    color: #333;
+    background-color: aliceblue;
+    border-radius: 2px 0 0 2px;
+    transition: 0.3s;
+    font-size: 20px;
+    pointer-events: none;
+    border:  1px solid#00000033;
+    border-right: none;
+}
+
+.input-box label{
+    width: 50%;
+    padding: 13px;
+    background-color: white;
+    display: flex;
+    float: left;
+    text-align: center;
+}
+
+.input-box label:last-of-type{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-bottom: 11px;
+}
+.radio:checked + label{
+    background-color: aquamarine;
+    color:#fff;
+    transition: 0.5s;
+}
+.input-box select{
+    margin-top: 10px;
+    display:flex;
+    width: 50%;
+    padding: 12px;
+    background-color: #fcfcfc;
+    align-items:left;
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #c0bfbf;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.input-box select:focus{
+    background-color: aquamarine;
+    color: #fff;
+    text-align: center;
+}
+button{
+    width:100%;
+    background: transparent;
+    border: none;
+    background: aquamarine;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+}
+button:hover{
+    cursor: pointer;
+    background:#ff7200;
+}
+button.return{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #00bcd4;
+    background:#00bcd4;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+button.return li a{
+    color:white;
+    text-decoration: none;
+}
+button.return:hover{
+    background-color:coral;
+    transition: .3s ease;
+    color: #ff7200;
+}
+button.go-to{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #00bcd4;
+    background:#00bcd4;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+button.go-to li a{
+    color:white;
+    text-decoration: none;
+}
+button.go-to:hover{
+    background-color:coral;
+    transition: .3s ease;
+    color:blue;
+}  
